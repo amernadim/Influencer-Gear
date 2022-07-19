@@ -1,0 +1,148 @@
+/*------------ 
+  Small device
+--------------- */
+@media screen and (max-width:540px) {
+  .container{
+    margin: 0 2%;
+  }
+
+  header{
+    padding: 0 2%;
+  }
+  .bar{
+    display: block;
+  }
+  .menu{
+    display: none;
+  }
+  .logo h3{
+    font-weight: 600;
+    font-size: 18px;   
+  }
+  .logo{
+    width: 80%;
+    margin-left: 10px;
+  }
+  .header-banner{
+    flex-direction: column-reverse;
+  }
+  .banner-img{
+    width: 95%;
+  }
+  .banner-detail{
+    width: 95%;
+    margin-top: 5%;
+  }
+  .banner-detail h1{
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .banner-detail p{
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: -5px;
+  }
+  .btn-one{
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
+    font-size: 14px; 
+  }
+.sponsor-sec{
+  box-shadow: none;
+  padding: 1% 2%;
+}
+.sponsor-sec ul{
+  display: grid;
+  grid-template-columns: repeat(4,1fr); 
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px ;
+  grid-row-gap:10px ;
+  margin-top: 20px;
+  margin-left: -50px;
+}
+.sponsor-sec ul li{
+   width: 100%;
+}
+.sponsor-sec ul li img{
+  width: 100%;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 70px
+}
+.products{
+  grid-template-columns: repeat(1,1fr);
+}
+
+.featured-sec{  
+  flex-direction: column-reverse;
+  gap: 40px;
+}
+.img-zoon img{
+  width: 100%;
+  height: auto;
+}
+.info-zoon h1{
+  font-size: 29px;
+}
+.info-zoon p{
+  font-size: 14px;
+}
+.btn-two{
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+}
+
+/*------------ 
+  medium device
+--------------- */
+
+@media screen and (min-width:541px) and (max-width:990px){
+  .menu{
+    width: 60%;
+  }
+  .header-banner{
+    flex-direction: column-reverse;
+  }
+  .header-banner{
+    flex-direction: column-reverse;
+  }
+  .banner-img{
+    width: 95%;
+  }
+  .banner-detail{
+    width: 95%;
+    margin-top: 5%;
+  }
+  .sponsor-sec{
+    box-shadow: none;
+    padding: 1% 2%;
+  }
+  .sponsor-sec ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10px ;
+    grid-row-gap:10px ;
+    margin-top: 20px;
+    margin-left: -50px;
+  }
+  .sponsor-sec ul li{
+     width: 100%;
+  }
+  .sponsor-sec ul li img{
+    width: 100%;
+  }
+  .featured-sec{  
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+}
